@@ -26,16 +26,16 @@ export class SellPage0 extends Component {
 	}
 
 	render() {
-		<View>
+		return (<View>
 			<Text>Page0</Text>
 			<TouchableOpacity activeOpacity={0.5}
 				style={styles.lightsOpacityStyle}
 				onPress={() => {
 					//方法
-				}}>>
+				}}>
 				<Text>Page0Btn</Text>
 			</TouchableOpacity>
-		</View>
+		</View>)
 	}
 
 }
@@ -49,7 +49,6 @@ const styles = StyleSheet.create({
 	},
 	lightsOpacityStyle: {
 		height: 54,
-		width: 48,
 		justifyContent: 'center',
 		alignItems: 'center'
 	},

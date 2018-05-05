@@ -11,7 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
-import { MessageStartPage } from './bundleSource/sell/pages/MessageStartPage';
+import SinochemSellStart from './bundleSource/sell/pages/SinochemSellStart';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -23,7 +23,7 @@ const instructions = Platform.select({
 export default class App extends Component {
   render() {
     return (
-      <MessageStartPage />
+      <SinochemSellStart />
     );
   }
 }
